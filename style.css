@@ -37,22 +37,18 @@ img{
     align-items:center;
     margin-bottom:55px;
 }
-
 .logo{
     color:#fff;
     font-size:28px;
     font-weight:bold;
 }
-
 .logo span{
     color:#bfbfbf;
     font-weight:400;
 }
-
 .menu a{
     color:#7d7d7d;
 }
-
 .menu-icon{
     font-size:28px;
 }
@@ -350,45 +346,37 @@ main{
     font-size:14px;
     margin-top:auto;
 }
-
 .footer{
     width:100%;
     padding:70px 100px 30px;
     background:#fff;
 }
-
 .footer-container{
     display:flex;
     justify-content:space-between;
     max-width:900px;
     margin:0 auto;
 }
-
 .footer-column{
     display:flex;
     flex-direction:column;
     gap:14px;
 }
-
 .footer-column h4{
     font-size:14px;
     color:#333;
     font-weight:600;
     margin-bottom:15px;
 }
-
 .footer-column a{
     text-decoration:none;
     color:#777;
     font-size:13px;
     transition:.3s;
 }
-
 .footer-column a:hover{
     color:#ff2e8b;
 }
-
-
 .footer-bottom{
     max-width:900px;
     margin:70px auto 0;
@@ -396,12 +384,10 @@ main{
     justify-content:space-between;
     align-items:center;
 }
-
 .social{
     display:flex;
     gap:15px;
 }
-
 .social a{
     width:20px;
     height:20px;
@@ -409,7 +395,6 @@ main{
     font-size:13px;
     text-decoration:none;
 }
-
 .footer-bottom p{
     font-size:12px;
     color:#999;
@@ -417,7 +402,6 @@ main{
 .light{
     color:#aaa;
 }
-
 .dark{
     color:#222;
     font-weight:700;
