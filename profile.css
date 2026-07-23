@@ -11,9 +11,6 @@
     object-fit:cover;
     border: 1px solid #e5e5e5;
 }
-{
-    border-radius: 50%;
-}
 .orders-page{
     width:100%;
     padding:40px;
@@ -44,7 +41,6 @@
 .orders-table tbody tr:hover{
     transform:translateY(-2px);
 }
-
 .orders-table tbody tr td:first-child{
     border-radius:12px 0 0 12px;
 }
@@ -59,4 +55,79 @@
 .pink-row td{
     color:#ff2e8b;
     font-weight:600;
+}
+@media (max-width:1024px){
+    .orders-page{
+        padding:25px;
+    }
+    .orders-table th{
+        padding:0 12px 15px;
+        font-size:13px;
+    }
+    .orders-table td{
+        padding:18px 12px;
+        font-size:14px;
+    }
+    .orders-table{
+        border-spacing:0 12px;
+    }
+    .orders-table tbody tr td:first-child{
+        border-radius:10px 0 0 10px;
+    }
+    .orders-table tbody tr td:last-child{
+        border-radius:0 10px 10px 0;
+    }
+    .header-icons .profile-img{
+        width:28px;
+        height:28px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container,
+    body {
+        display: flex;
+        flex-direction: column; 
+    }
+    .sidebar {
+        width: 100% !important; 
+        height: auto !important;
+        padding: 15px;
+    }
+    .orders-page {
+        padding: 15px;
+    }
+    .orders-table {
+        display: block;
+        width: 100%;
+        border-spacing: 0;
+    }
+    .orders-table thead,
+    .orders-table th {
+        display: none;
+    }
+    .orders-table tbody,
+    .orders-table tr,
+    .orders-table td {
+        display: block;
+        width: 100%;
+    }
+    .orders-table tbody tr {
+        margin-bottom: 20px;
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid #eee;
+    }
+    .orders-table td {
+        padding: 12px 15px;
+        text-align: right; 
+        border-bottom: 1px solid #f9f9f9;
+        position: relative;
+    }
+    .orders-table td:last-child {
+        border-bottom: none;
+    }
+    .orders-table tbody tr td:first-child,
+    .orders-table tbody tr td:last-child {
+        border-radius: 0;
+    }
 }
